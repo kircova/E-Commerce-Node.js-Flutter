@@ -1,0 +1,112 @@
+
+/** ADD YOUR AWESOME CODES HERE **/
+/**********************************/
+/*********** Review CSS ***********/
+/**********************************/
+.review {
+  margin-bottom: 30px;
+}
+
+.review .review-slider {
+  position: relative;
+}
+
+.review .review-slider-item {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  background: #ffffff;
+}
+
+.review .review-img {
+  width: 100%;
+  max-width: 200px;
+  overflow: hidden;
+}
+
+.review .review-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.review .review-text {
+  padding: 15px;
+  width: 100%;
+  max-width: calc(100% - 200px);
+}
+
+.review .review-text h2 {
+  font-size: 22px;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+
+.review .review-text h3 {
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+
+.review .review-text p {
+  margin: 0;
+}
+
+.review .review-text .ratting {
+  margin-bottom: 5px;
+}
+
+.review .review-text .ratting i {
+  color: #ff6f61;
+  font-size: 14px;
+}
+
+.review .slick-slider:hover .slick-prev {
+  left: 30px;
+}
+
+.review .slick-slider:hover .slick-next {
+  right: 30px;
+}
+/**********************************/
+/*********** Review CSS ***********/
+/**********************************/
+* {
+  margin: 0;
+  padding: 0;
+}
+.rate {
+  float: left;
+  height: 46px;
+  padding: 0 10px;
+}
+.rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+.rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 30px;
+  color: #ccc;
+}
+.rate:not(:checked) > label:before {
+  content: "★ ";
+}
+.rate > input:checked ~ label {
+  color: #ffc700;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
