@@ -4,8 +4,8 @@ Developed a fully functional Vinyl Store E-commerce website and mobile with a st
 
 
 # Group Members
-- Baran Çimen
 - Yusufhan Kırçova
+- Baran Çimen
 - Jankat Yaşar
 - Batuhan Demir
 - Işıl Sefünç
