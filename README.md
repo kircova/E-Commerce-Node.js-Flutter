@@ -5,8 +5,8 @@ Developed a fully functional Vinyl Store E-commerce website and mobile with a st
 
 # Group Members
 - Yusufhan Kırçova
-- Baran Çimen
-- Jankat Yaşar
+- Baran Çimen - https://github.com/cimenbaran
+- Jankat Yaşar - https://github.com/jankat12
+- Işıl Sefünç - https://github.com/isilsefunc
 - Batuhan Demir
-- Işıl Sefünç
 - Faik Şahin
